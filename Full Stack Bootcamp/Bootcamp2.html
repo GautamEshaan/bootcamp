@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GET Method Example</title>
+</head>
+<style>
+    body{
+        background-color: lightcyan;
+    }
+    .container{
+        border: 2px solid #333;
+        padding: 10px;
+        margin: 20px;
+        background-color:lightseagreen;
+    }
+    .box{
+        border: 2px solid #333;
+        padding: 10px;
+        margin: 20px;
+        background-color: red;
+    }
+
+</style>
+<body>
+    <center>
+    <h1><b><u>GET AND POST</u></b></h1>
+    </center>
+    <div class="container">
+    <h2><b><i>GET Example</i></b></h2>
+
+    <form action="Bootcamp2.html" method="get">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+        <br><br>
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email">
+        <br><br>
+        <input type="submit" value="Submit">
+        <br><br>
+    </form>
+    </div>
+
+    <div class="box">
+    <h2><i>POST Example</i></h2>
+
+    <form action="/submit-post" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+        <br><br>
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email">
+        <br><br>
+        <input type="submit" value="Submit">
+    </form>
+    </div>
+</body>
+</html>
